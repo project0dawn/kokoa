@@ -1,0 +1,36 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: orange;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid gray;
+}
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__link {
+  position: relative;
+  color: white;
+}
+
+@keyframes notifyAni {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.footer__notification {
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+  animation: notifyAni 5s ease-in-out infinite;
+}

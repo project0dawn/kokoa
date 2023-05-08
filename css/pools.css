@@ -1,0 +1,14 @@
+.pools__content__user {
+  display: flex;
+  flex-direction: column;
+}
+
+.optional__display {
+  text-align: center;
+  display: block;
+  background-color: #fafafa;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: -15px;
+}

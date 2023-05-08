@@ -1,0 +1,127 @@
+#talk-body {
+  background-color: #d3d2c3;
+}
+
+.talk__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.talk__date {
+  font-size: 15px;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.talk__row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.talk__row img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.talk__author {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.talk__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.talk__bubble {
+  background-color: white;
+  padding: 13px;
+  font-size: 18px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+}
+
+.talk__time,
+.talk__author {
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.talk__row__myself {
+  justify-content: flex-end;
+}
+
+.talk__row__myself .talk__bubble {
+  background-color: orange;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 15px;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.talk__row__myself .talk__info {
+  flex-direction: row-reverse;
+}
+
+.talk__interface {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  align-items: center;
+  /* transition: transform 0.3s ease-in-out; */
+}
+
+/* .talk__interface .talk__interface__col:first-child {
+  width: 10%;
+} */
+
+.talk__interface .talk__interface__col:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.talk__interface i {
+  opacity: 0.5;
+}
+
+.talk__interface input {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+.talk__interface__col:last-child > i,
+.talk__interface__col:last-child button {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+
+.talk__interface__col:last-child > i {
+  right: 50px;
+  top: 22px;
+}
+
+.talk__interface__col button {
+  background-color: orange;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}

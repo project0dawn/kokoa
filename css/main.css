@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;1000&display=swap");
+@import "index.css";
+@import "no-mobile.css";
+@import "pools.css";
+@import "common.css";
+@import "talks.css";
+@import "talk.css";
+
+@import "components/user.css";
+@import "components/footer.css";
+@import "components/header.css";
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0px;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
